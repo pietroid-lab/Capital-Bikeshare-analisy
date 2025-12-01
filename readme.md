@@ -11,6 +11,8 @@ Redis (opcional)
 # P2 — Ciências de Dados
 
 ## 🚀 Objetivo
+
+## 📊 Tráfego de Bicicletas Compartilhadas – Capital Bikeshare (Bike Sharing Dataset)
 Este repositório contém um notebook para análise e modelagem de séries temporais (ARIMA) sobre o dataset diário `day.csv`, além de exemplos de estruturas probabilísticas (HyperLogLog, Count-Min Sketch) implementadas com Redis/RedisBloom ou simuladas com `fakeredis`.
 
 ## 📦 Pré-requisitos
@@ -89,12 +91,3 @@ Os arquivos a seguir são gravados em `outputs/`:
 - Fuso horário aplicado: `America/Sao_Paulo`
 - Melhores horizontes são escolhidos automaticamente com base nas métricas de erro
 - Redis é opcional — usar Docker+RedisBloom permite testar as estruturas probabilísticas em produção
-
-## Próximos passos (opcional)
-Se desejar, posso gerar:
-
-- a versão final do `notebooks/analysis.ipynb`
-- a estrutura de pastas recomendada para o projeto
-- uma versão em PDF do notebook
-
-Peça qualquer uma dessas opções quando estiver pronto.
